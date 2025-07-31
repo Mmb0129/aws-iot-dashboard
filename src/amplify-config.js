@@ -7,8 +7,8 @@ export const awsconfig = {
         oauth: {
           domain: 'smartfarm-12.auth.us-east-1.amazoncognito.com',
           scopes: ['email', 'openid', 'profile'],
-          redirectSignIn: ['http://localhost:3000/'],
-          redirectSignOut: ['http://localhost:3000/'],
+          redirectSignIn: ['https://main.dl0cy1telszqd.amplifyapp.com/'],
+          redirectSignOut: ['https://main.dl0cy1telszqd.amplifyapp.com/'],
           responseType: 'code', // Required for PKCE
         },
       },
