@@ -293,8 +293,13 @@ const App = () => {
 
 
    return (
-  <div className="p-6 font-sans bg-gray-50 min-h-screen space-y-6">
-   {/* Header */}
+  
+  <div
+  className="p-6 font-sans min-h-screen space-y-6 bg-cover bg-no-repeat bg-center"
+  style={{ backgroundImage: 'url("/Back_ground.png")' }}
+  >
+
+    {/* Header */}
    <div className="flex flex-wrap justify-between items-center gap-4 mb-4">
     <h2 className="text-2xl font-bold">🌾 Smart Farming Dashboard</h2>
     {user ? (
