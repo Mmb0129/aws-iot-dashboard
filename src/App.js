@@ -511,7 +511,7 @@ const App = () => {
      </div>
 
      {/* Chart Area */}
-     <div className="space-y-4">
+     <div className="space-y-4" style={{backgroundColor:"white"}}>
       <ChartControls
        showTemperature={showTemperature}
        setShowTemperature={setShowTemperature}
